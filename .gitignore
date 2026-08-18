@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Node / presentation build dependencies
+node_modules/
+
+# Local generated contract contains machine-specific absolute paths
+configs/precision_scope_contract.local.json
+
+# Raw scope/AWG data and large archives are kept on the instrument computer
+data/
+*.rar
+
+# Scratch directories and generated presentation inspection artifacts
+tmp/
+tmp_test/
+archive/tmp/
+archive/tmp_test/
+*.inspect.ndjson
+presentations/renders/**/*.png
+
+# OS files
+Thumbs.db
+Desktop.ini

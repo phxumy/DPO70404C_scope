@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "run_id": "formal-longitudinal-20260816_150547-a36f9c21",
+  "awg_project": "D:\\labradPy3_72qubit\\DataTakingEclipse",
+  "awg_sample_rate_hz": 2000000000.0,
+  "awg_sram_samples": 32768,
+  "awg_period_s": 0.000016384,
+  "marker_rise_sample": 200,
+  "marker_rising_edges_per_period": 1,
+  "scope_resource": "TCPIP0::192.168.1.7::inst0::INSTR",
+  "scope_defaults": {
+    "sample_rate_hz": 25000000000.0,
+    "record_length": 1000,
+    "span_s": 4e-08,
+    "horizontal_scale_s_per_div": 4e-09,
+    "trigger_source": "AUXILIARY",
+    "trigger_slope": "RISE",
+    "trigger_level_v": 1.4,
+    "ch3_termination_ohm": 50.0,
+    "ch3_coupling": "DC",
+    "ch3_bandwidth_hz": 4000000000.0,
+    "safe_vertical_scale_v_per_div": 0.02,
+    "safe_vertical_offset_v": 0.2432
+  },
+  "prior_path_delay": {
+    "value_ns": 10.853,
+    "status": "reusing_reviewed_unchanged_cable_calibration",
+    "quantity": "differential_path_delay_ch3_minus_aux",
+    "source": "formal-longitudinal-20260816_110341-79304963 gatelen preview"
+  },
+  "batches": {
+    "gatelen": {
+      "batch_id": "formal-longitudinal-20260816_150547-a36f9c21-gatelen-notbuffer-L10-b01",
+      "experiment": "gatelen",
+      "variant": "no_tbuffer",
+      "target_layers": [10],
+      "total_frames": 120,
+      "shots_per_point": 20,
+      "warmup_shots": 0,
+      "discard_frames": [],
+      "digital_center_ns": 7222.5,
+      "digital_coverage_ns": [7215.0, 7230.0],
+      "scope_span_ns": 40.0,
+      "confirmation": "START formal-longitudinal-20260816_150547-a36f9c21-gatelen-notbuffer-L10-b01",
+      "points": [
+        {
+          "point_id": "gatelen-notbuffer-01-30p0ns",
+          "frames_1based": [1, 20],
+          "gate_len_ns": "30.0",
+          "tflat_ns": "10.0",
+          "tbuffer_ns": "0.0",
+          "target_start_ns": 7215.0,
+          "target_center_ns": 7220.0,
+          "target_end_ns": 7225.0
+        },
+        {
+          "point_id": "gatelen-notbuffer-02-30p1ns",
+          "frames_1based": [21, 40],
+          "gate_len_ns": "30.1",
+          "tflat_ns": "10.1",
+          "tbuffer_ns": "0.0",
+          "target_start_ns": 7216.0,
+          "target_center_ns": 7221.0,
+          "target_end_ns": 7226.0
+        },
+        {
+          "point_id": "gatelen-notbuffer-03-30p2ns",
+          "frames_1based": [41, 60],
+          "gate_len_ns": "30.2",
+          "tflat_ns": "10.2",
+          "tbuffer_ns": "0.0",
+          "target_start_ns": 7217.0,
+          "target_center_ns": 7222.0,
+          "target_end_ns": 7227.0
+        },
+        {
+          "point_id": "gatelen-notbuffer-04-30p3ns",
+          "frames_1based": [61, 80],
+          "gate_len_ns": "30.3",
+          "tflat_ns": "10.3",
+          "tbuffer_ns": "0.0",
+          "target_start_ns": 7218.0,
+          "target_center_ns": 7223.0,
+          "target_end_ns": 7228.0
+        },
+        {
+          "point_id": "gatelen-notbuffer-05-30p4ns",
+          "frames_1based": [81, 100],
+          "gate_len_ns": "30.4",
+          "tflat_ns": "10.4",
+          "tbuffer_ns": "0.0",
+          "target_start_ns": 7219.0,
+          "target_center_ns": 7224.0,
+          "target_end_ns": 7229.0
+        },
+        {
+          "point_id": "gatelen-notbuffer-06-30p5ns",
+          "frames_1based": [101, 120],
+          "gate_len_ns": "30.5",
+          "tflat_ns": "10.5",
+          "tbuffer_ns": "0.0",
+          "target_start_ns": 7220.0,
+          "target_center_ns": 7225.0,
+          "target_end_ns": 7230.0
+        }
+      ]
+    }
+  }
+}

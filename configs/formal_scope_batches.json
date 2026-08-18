@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "run_id": "formal-longitudinal-20260816_130132-888a0be3",
+  "awg_project": "D:\\labradPy3_72qubit\\DataTakingEclipse",
+  "awg_sample_rate_hz": 2000000000.0,
+  "awg_sram_samples": 32768,
+  "awg_period_s": 0.000016384,
+  "marker_rise_sample": 200,
+  "marker_rising_edges_per_period": 1,
+  "scope_resource": "TCPIP0::192.168.1.7::inst0::INSTR",
+  "scope_defaults": {
+    "sample_rate_hz": 25000000000.0,
+    "record_length": 1000,
+    "span_s": 4e-08,
+    "horizontal_scale_s_per_div": 4e-09,
+    "trigger_source": "AUXILIARY",
+    "trigger_slope": "RISE",
+    "trigger_level_v": 1.4,
+    "ch3_termination_ohm": 50.0,
+    "ch3_coupling": "DC",
+    "ch3_bandwidth_hz": 4000000000.0,
+    "safe_vertical_scale_v_per_div": 0.02,
+    "safe_vertical_offset_v": 0.2432
+  },
+  "prior_path_delay": {
+    "value_ns": 10.853,
+    "status": "prior_only_requires_preview",
+    "quantity": "differential_path_delay_ch3_minus_aux",
+    "source": "2026-08-15 appended-staircase hold1/4/8 measurements",
+    "individual_estimates_ns": [10.96, 10.88, 10.72]
+  },
+  "batches": {
+    "gatelen": {
+      "batch_id": "formal-longitudinal-20260816_110341-79304963-gatelen-L10-b01",
+      "experiment": "gatelen",
+      "target_layers": [10],
+      "total_frames": 120,
+      "shots_per_point": 20,
+      "warmup_shots": 0,
+      "discard_frames": [],
+      "digital_center_ns": 7222.5,
+      "digital_coverage_ns": [7205.0, 7240.0],
+      "scope_span_ns": 40.0,
+      "confirmation": "START formal-longitudinal-20260816_110341-79304963-gatelen-L10-b01",
+      "points": [
+        {
+          "point_id": "gatelen-01-30p0ns",
+          "frames_1based": [1, 20],
+          "gate_len_ns": "30.0",
+          "tflat_ns": "10.0",
+          "tbuffer_ns": "0.0",
+          "gate_plus_buffer_samples": 60,
+          "target_start_ns": 7215.0,
+          "target_center_ns": 7220.0,
+          "target_end_ns": 7225.0
+        },
+        {
+          "point_id": "gatelen-02-30p1ns",
+          "frames_1based": [21, 40],
+          "gate_len_ns": "30.1",
+          "tflat_ns": "10.1",
+          "tbuffer_ns": "0.4",
+          "gate_plus_buffer_samples": 61,
+          "target_start_ns": 7219.6,
+          "target_center_ns": 7224.6,
+          "target_end_ns": 7229.6
+        },
+        {
+          "point_id": "gatelen-03-30p2ns",
+          "frames_1based": [41, 60],
+          "gate_len_ns": "30.2",
+          "tflat_ns": "10.2",
+          "tbuffer_ns": "0.3",
+          "gate_plus_buffer_samples": 61,
+          "target_start_ns": 7219.7,
+          "target_center_ns": 7224.7,
+          "target_end_ns": 7229.7
+        },
+        {
+          "point_id": "gatelen-04-30p3ns",
+          "frames_1based": [61, 80],
+          "gate_len_ns": "30.3",
+          "tflat_ns": "10.3",
+          "tbuffer_ns": "0.2",
+          "gate_plus_buffer_samples": 61,
+          "target_start_ns": 7219.8,
+          "target_center_ns": 7224.8,
+          "target_end_ns": 7229.8
+        },
+        {
+          "point_id": "gatelen-05-30p4ns",
+          "frames_1based": [81, 100],
+          "gate_len_ns": "30.4",
+          "tflat_ns": "10.4",
+          "tbuffer_ns": "0.1",
+          "gate_plus_buffer_samples": 61,
+          "target_start_ns": 7219.9,
+          "target_center_ns": 7224.9,
+          "target_end_ns": 7229.9
+        },
+        {
+          "point_id": "gatelen-06-30p5ns",
+          "frames_1based": [101, 120],
+          "gate_len_ns": "30.5",
+          "tflat_ns": "10.5",
+          "tbuffer_ns": "0.0",
+          "gate_plus_buffer_samples": 61,
+          "target_start_ns": 7220.0,
+          "target_center_ns": 7225.0,
+          "target_end_ns": 7230.0
+        }
+      ]
+    },
+    "timinglag_l1": {
+      "batch_id": "formal-longitudinal-20260816_130132-888a0be3-timinglag-L01-b01",
+      "experiment": "timinglag",
+      "target_layers": [1],
+      "total_frames": 120,
+      "shots_per_point": 20,
+      "warmup_shots": 0,
+      "discard_frames": [],
+      "digital_center_ns": 6852.0,
+      "digital_coverage_ns": [6832.0, 6872.0],
+      "scope_span_ns": 40.0,
+      "confirmation": "START formal-longitudinal-20260816_130132-888a0be3-timinglag-L01-b01",
+      "points": [
+        {"point_id": "timinglag-01-0p0ns", "frames_1based": [1, 20], "timing_lag_offset_ns": "0.0", "timing_lag_absolute_ns": "0.0", "target_start_ns": 6835.0, "target_end_ns": 6868.1},
+        {"point_id": "timinglag-02-0p1ns", "frames_1based": [21, 40], "timing_lag_offset_ns": "0.1", "timing_lag_absolute_ns": "0.1", "target_start_ns": 6835.1, "target_end_ns": 6868.2},
+        {"point_id": "timinglag-03-0p2ns", "frames_1based": [41, 60], "timing_lag_offset_ns": "0.2", "timing_lag_absolute_ns": "0.2", "target_start_ns": 6835.2, "target_end_ns": 6868.3},
+        {"point_id": "timinglag-04-0p3ns", "frames_1based": [61, 80], "timing_lag_offset_ns": "0.3", "timing_lag_absolute_ns": "0.3", "target_start_ns": 6835.3, "target_end_ns": 6868.4},
+        {"point_id": "timinglag-05-0p4ns", "frames_1based": [81, 100], "timing_lag_offset_ns": "0.4", "timing_lag_absolute_ns": "0.4", "target_start_ns": 6835.4, "target_end_ns": 6868.5},
+        {"point_id": "timinglag-06-0p5ns", "frames_1based": [101, 120], "timing_lag_offset_ns": "0.5", "timing_lag_absolute_ns": "0.5", "target_start_ns": 6835.5, "target_end_ns": 6868.6}
+      ]
+    },
+    "timinglag_l10": {
+      "batch_id": "formal-longitudinal-20260816_130132-888a0be3-timinglag-L10-b02",
+      "experiment": "timinglag",
+      "target_layers": [10],
+      "total_frames": 120,
+      "shots_per_point": 20,
+      "warmup_shots": 0,
+      "discard_frames": [],
+      "digital_center_ns": 7243.5,
+      "digital_coverage_ns": [7223.5, 7263.5],
+      "scope_span_ns": 40.0,
+      "confirmation": "START formal-longitudinal-20260816_130132-888a0be3-timinglag-L10-b02",
+      "points": [
+        {"point_id": "timinglag-01-0p0ns", "frames_1based": [1, 20], "timing_lag_offset_ns": "0.0", "timing_lag_absolute_ns": "0.0", "target_start_ns": 7226.5, "target_end_ns": 7259.6},
+        {"point_id": "timinglag-02-0p1ns", "frames_1based": [21, 40], "timing_lag_offset_ns": "0.1", "timing_lag_absolute_ns": "0.1", "target_start_ns": 7226.6, "target_end_ns": 7259.7},
+        {"point_id": "timinglag-03-0p2ns", "frames_1based": [41, 60], "timing_lag_offset_ns": "0.2", "timing_lag_absolute_ns": "0.2", "target_start_ns": 7226.7, "target_end_ns": 7259.8},
+        {"point_id": "timinglag-04-0p3ns", "frames_1based": [61, 80], "timing_lag_offset_ns": "0.3", "timing_lag_absolute_ns": "0.3", "target_start_ns": 7226.8, "target_end_ns": 7259.9},
+        {"point_id": "timinglag-05-0p4ns", "frames_1based": [81, 100], "timing_lag_offset_ns": "0.4", "timing_lag_absolute_ns": "0.4", "target_start_ns": 7226.9, "target_end_ns": 7260.0},
+        {"point_id": "timinglag-06-0p5ns", "frames_1based": [101, 120], "timing_lag_offset_ns": "0.5", "timing_lag_absolute_ns": "0.5", "target_start_ns": 7227.0, "target_end_ns": 7260.1}
+      ]
+    },
+    "timinglag_l20": {
+      "batch_id": "formal-longitudinal-20260816_130132-888a0be3-timinglag-L20-b03",
+      "experiment": "timinglag",
+      "target_layers": [20],
+      "total_frames": 120,
+      "shots_per_point": 20,
+      "warmup_shots": 0,
+      "discard_frames": [],
+      "digital_center_ns": 7678.5,
+      "digital_coverage_ns": [7658.5, 7698.5],
+      "scope_span_ns": 40.0,
+      "confirmation": "START formal-longitudinal-20260816_130132-888a0be3-timinglag-L20-b03",
+      "points": [
+        {"point_id": "timinglag-01-0p0ns", "frames_1based": [1, 20], "timing_lag_offset_ns": "0.0", "timing_lag_absolute_ns": "0.0", "target_start_ns": 7661.5, "target_end_ns": 7694.6},
+        {"point_id": "timinglag-02-0p1ns", "frames_1based": [21, 40], "timing_lag_offset_ns": "0.1", "timing_lag_absolute_ns": "0.1", "target_start_ns": 7661.6, "target_end_ns": 7694.7},
+        {"point_id": "timinglag-03-0p2ns", "frames_1based": [41, 60], "timing_lag_offset_ns": "0.2", "timing_lag_absolute_ns": "0.2", "target_start_ns": 7661.7, "target_end_ns": 7694.8},
+        {"point_id": "timinglag-04-0p3ns", "frames_1based": [61, 80], "timing_lag_offset_ns": "0.3", "timing_lag_absolute_ns": "0.3", "target_start_ns": 7661.8, "target_end_ns": 7694.9},
+        {"point_id": "timinglag-05-0p4ns", "frames_1based": [81, 100], "timing_lag_offset_ns": "0.4", "timing_lag_absolute_ns": "0.4", "target_start_ns": 7661.9, "target_end_ns": 7695.0},
+        {"point_id": "timinglag-06-0p5ns", "frames_1based": [101, 120], "timing_lag_offset_ns": "0.5", "timing_lag_absolute_ns": "0.5", "target_start_ns": 7662.0, "target_end_ns": 7695.1}
+      ]
+    }
+  }
+}
