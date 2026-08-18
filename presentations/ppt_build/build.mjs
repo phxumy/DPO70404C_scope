@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import { Presentation, PresentationFile } from "@oai/artifact-tool";
 
 const ROOT =
-  "D:/my_files/IOP_after_20250418/academic/CR_gate_new/20260711真实实验/connect_DPO70404C/scope_runs";
+  "D:/my_files/IOP_after_20250418/academic/CR_gate_new/20260711true_experiment/connect_DPO70404C/data/scope_runs";
 
 const IMG = {
   timingCoarse:
@@ -231,7 +231,7 @@ async function main() {
   ]);
 
   const out =
-    "D:/my_files/IOP_after_20250418/academic/CR_gate_new/20260711真实实验/connect_DPO70404C/AWG纵场输出精度验证.pptx";
+    "D:/my_files/IOP_after_20250418/academic/CR_gate_new/20260711true_experiment/connect_DPO70404C/presentations/AWG纵场输出精度验证.pptx";
   const pptx = await PresentationFile.exportPptx(presentation);
   await pptx.save(out);
   console.log("saved pptx:", out);
